@@ -60,3 +60,17 @@
   transform: rotateY(0) rotateX(-30deg);
   border-bottom-color: blue;
 }
+
+@keyframes rotate {
+  0% {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+
+  50% {
+    transform: rotateX(15deg) rotateY(180deg);
+  }
+
+  100% {
+    transform: rotateX(0deg) rotateY(360deg);
+  }
+}
