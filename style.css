@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrap {
+  margin-top: 150px;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+}
+
+.pyramid {
+  margin: auto;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  transform-style: preserve-3d;
+  animation: rotate 8s infinite linear;
+}
